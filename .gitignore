@@ -1,0 +1,55 @@
+# ------------------------
+# OS files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Python cache & build
+# ------------------------
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ------------------------
+# Virtual environments
+# ------------------------
+.venv/
+venv/
+env/
+
+# ------------------------
+# Jupyter
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# Data
+# ------------------------
+data/raw/*
+data/processed/*
+!data/.gitkeep   # keep empty folder structure
+
+# ------------------------
+# Models & outputs
+# ------------------------
+models/*
+*.pkl
+*.sav
+*.h5
+
+# ------------------------
+# Logs
+# ------------------------
+logs/
+*.log
+
+# ------------------------
+# IDE/editor files
+# ------------------------
+.vscode/
+.idea/
